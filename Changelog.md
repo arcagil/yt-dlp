@@ -11,6 +11,7 @@
 Due to a change made by the site, yt-dlp is no longer able to support OAuth login for YouTube. [Read more](https://github.com/yt-dlp/yt-dlp/issues/11462#issuecomment-2471703090)
 
 #### Core changes
+- [Fix autopadding when using format substitutions](https://github.com/yt-dlp/yt-dlp/commit/123) ([#11486](https://github.com/yt-dlp/yt-dlp/issues/11486)) by [Solver](https://github.com/Solver)
 - [Catch broken Cryptodome installations](https://github.com/yt-dlp/yt-dlp/commit/b83ca24eb72e1e558b0185bd73975586c0bc0546) ([#11486](https://github.com/yt-dlp/yt-dlp/issues/11486)) by [seproDev](https://github.com/seproDev)
 - **utils**
     - [Fix `join_nonempty`, add `**kwargs` to `unpack`](https://github.com/yt-dlp/yt-dlp/commit/39d79c9b9cf23411d935910685c40aa1a2fdb409) ([#11559](https://github.com/yt-dlp/yt-dlp/issues/11559)) by [Grub4K](https://github.com/Grub4K)
